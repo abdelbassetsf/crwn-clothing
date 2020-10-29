@@ -26,6 +26,7 @@ $sub-color: grey;
 
     &:focus {
       outline: none;
+      background: #e4eeed;
     }
 
     &:focus ~ .form-input-label {
