@@ -16,10 +16,13 @@
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    scrollbar-width: none;
 
     &::-webkit-scrollbar {
-      display: none;
+      width: 1em;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #1f7bc7;
+      outline: 1px solid rgb(8, 91, 173);
     }
   }
 
