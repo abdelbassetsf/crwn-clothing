@@ -20,12 +20,12 @@
     top: 255px;
     width: 80%;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, background 0.15s ease;
   }
 
   &:hover {
     .image {
-      opacity: 0.8;
+      opacity: 0.9;
     }
 
     .custom-button {
